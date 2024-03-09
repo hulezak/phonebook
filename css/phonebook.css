@@ -1,0 +1,123 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(20, 6, 6);
+}
+
+* {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+/*colors please */
+.white {
+  color: white;
+}
+
+.aqua {
+  background-color: aqua;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+/*end of Color Section*/
+
+/* navigation bar section of call history */
+.navigation-bar {
+  border-radius: 30px;
+  color: rgb(12, 132, 238);
+  background-color: rgb(44, 40, 40);
+}
+
+/* end of xcall historu navigation bar */
+#Recent {
+  margin-top: 50px;
+}
+.caller {
+  width: 98%;
+  background-color: #202529;
+  height: 80px;
+  border-radius: 10px;
+  border-bottom: 3px rgb(52, 52, 133) solid;
+  margin: 0 auto;
+}
+
+.caller:hover {
+  background-color: rgb(40, 40, 72);
+  color: rgb(61, 204, 17);
+  height: 85px;
+  width: 100%;
+  border-radius: 20px;
+}
+.img-container {
+  width: 60px;
+}
+.img-container img {
+  border-radius: 15px;
+}
+
+.misscall-no {
+  border-radius: 50%;
+  width: 20px;
+  margin-left: 100px;
+}
+/* contact detail */
+.contact-profile {
+  color: black;
+  background-color: white;
+}
+.caller-profile .info img {
+  background-color: black;
+  width: 25%;
+  border-radius: 20px;
+}
+.caller-contacts {
+  width: 100%;
+  border-radius: 20px;
+  border: 3px rgb(46, 46, 116) solid;
+  height: 80px;
+}
+.caller-contacts:hover {
+  background-color: #80898b;
+  height: 85px;
+}
+.caller-contacts img {
+  border-radius: 10px;
+  height: 45px;
+}
+.caller-contacts img:hover {
+  height: 50px;
+}
+
+/*  */
+.old-call {
+  width: 97%;
+  border-radius: 20px;
+  background-color: rgb(34, 29, 35);
+}
+
+.old-call p {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.old-call:hover {
+
+  font-size: 26px;
+  width: 100%;
+  border-radius: 25px;
+  background-color: rgb(78, 72, 80);
+  color: rgb(14, 171, 144);
+}
